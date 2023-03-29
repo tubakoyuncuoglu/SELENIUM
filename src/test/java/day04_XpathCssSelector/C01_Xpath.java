@@ -55,6 +55,8 @@ public class C01_Xpath {
         driver.findElement(By.xpath("(//*[@class='a-link-normal s-no-outline'])[1]")).click();
         //Sayfayı kapatınız
         driver.close();
+
+        System.out.println("basarılı bir sekilde gonderecegim");
     }
 
 
